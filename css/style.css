@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+@import url(https://color.adobe.com/es/explore);
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+@import url(fontawesome-free-6.1.1-web/css/all.min.css);
+:root{
+    --color1: #5040F7;
+    --color2: #B140F7;
+    --color3: #F2A0A0;
+    --color4: #FFE599;
+    --color5: #DC3EED;
+
+    --color-blanco:#FFFFFF;
+    --color-blanco: #000000;
+    --gris-claro: #CCCC;
+    --gris-oscuro:#333;
+}
+
+html{
+    scroll-behavior: smooth; /* para que la hacer scroll con los hipervínculos, sea con animación */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+p{
+    margin-top: 0%;
+    margin-bottom:0.8px;
+}
+h1{
+    font-weight: 900;
+    font-size: 64px;
+    letter-spacing: -2px;
+}
+
+h2{
+    font-family: 'Cinzel Decorative',cursive;
+    font-weight: 200;
+    font-size: 32px;
+    letter-spacing: -2px;
+    text-transform: none;
+    padding-bottom: 15px;
+    margin-bottom: 0.5em;
+}
+h3{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 0.25em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    line-height: 1.1em;
+}
+
+#main-header{
+    background-color:#d824a2; /* color de fondo */
+    color:#21b9e7; /* color de texto */
+    position: sticky;/* Que al hacer Scroll se quede pegado el objeto en la posición definida por top */
+    top: 0;
+    z-index: 1000; 
+}
+
+#main-header p{
+margin-bottom: 0;
+}
+
+#main-banner{
+    background-image: radial-gradient();
+    display: flex;
+}
+
+#nosotros{
+    background-color: #fd8181;
+    color: #032612;
+    padding-bottom: 8px;
+    padding-bottom: 20px;
+}
+#noticias{
+    background-color: #f178dd;
+    color: #011F26;
+
+}
+#noticias .col{
+	border: solid 1px #DDDDDD;
+	margin: 0 5px;
+	padding-top: 15px;
+	background-color: #DC3EED;
+	border-radius: 10px;
+    box-shadow: 8px 16px 15px 0px rgb(0, 0, 0 / 30%);
+}
+#modelos{
+    background-image:url("../image/6391b6531a96ea24c6a3ad72a0673069.jpg");
+    text-decoration-color: #5040F7;
+    font-size:larger;
+    background-image: radial-gradient();
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+    
+#historia{
+    background-color: #db6b83;
+    color: #032612;
+    padding-bottom: 8px;
+}
+#empresa{
+    background-color: #f091c5;
+    color: #011F26;
+    justify-content: center
+
+}
+#eventos{
+    background-color: #f07979;
+    color:#032612 ;
+    text-align: center;
+}
+
+#eventos i{
+    color: violet;
+    margin-bottom: 15px;
+
+
+}
+#conferencia{
+    background-color: #675ee0c7;
+    color:#6bc290 ;
+}
+#imagen-conferencia{
+    margin-top: -75px ;
+}
+#imagen-conferencia img{
+    border-radius: 30px 30px 0 0;
+}
+
+#anuncio{
+    background-image:url("../image/8d6bdf2e4ebc333ca9b953e10ae99bea.jpg");
+    text-decoration-color: #5040F7;
+    font-size:large;
+    font-weight:400;
+    font-style: var(--color1);
+    background-image: radial-gradient();
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+#cursos{
+    background-color: #faa6d4;
+    color: #011F26;
+    text-align: center;
+}
+
+#cursos img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+#editoriales {
+    background-color: #f07979;
+    color:#032612 ;
+}
+#editoriales .col {
+    border: solid 10px rgba(255,255,255,0.2);
+    margin: 0 5px;
+    padding-top: 15px;
+}
+
+#main-footer{
+    background-color: #DC3EED;
+    color: rgb(7, 7, 7);
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    
+}
+.row{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+.col50{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.img-fluid {
+    max-width:80%;
+    max-height:none;
+    text-align:center;
+    display:block;
+    margin:auto;
+    border: #032612;
+    box-shadow: #333;
+    
+}
+
+.img-fluid-1 {
+    max-width:100%;
+    max-height:100%;
+    display:block;
+    margin:auto;
+    
+}
+
+.mega-text1{
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1em;
+    letter-spacing: -4px;
+}
+
+.texto-importante{
+    color: var(--color2);
+    font-weight: 700;
+    letter-spacing: -2px;
+
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li a{
+    display: block;/* Asi recién considera los padding verticales */
+}
+
+.menu-top li a{
+    padding: 5px 10px;
+    color: var(--gris-claro);
+    font-size: 0.8em;
+}
+.menu-top li a:hover{
+    background-color: rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+.menu-main li a{
+    padding: 30px 10px;
+    color: var(--gris-oscuro);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: solid 3px transparent;
+}
+.menu-main li a:hover{
+    text-decoration: none;
+    color: var(--color-negro);
+    border-bottom: solid 3px var(--color-negro);
+}
+
